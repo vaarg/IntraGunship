@@ -8,7 +8,7 @@ echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.d
 curl -fsSL https://download.docker.com/linux/debian/gpg |
   sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo apt update
-curl -L https://ghst.ly/getbhce | sudo docker compose -f - up
+sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 echo "Yehaaawww"
 echo "Now run:"
