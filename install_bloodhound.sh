@@ -11,5 +11,5 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 echo "Yehaaawww"
-echo "Now run:"
-echo "curl -L https://ghst.ly/getbhce | sudo docker compose -f - up"
+curl -L https://ghst.ly/getbhce -o docker-compose.yaml
+echo "Run `docker compose up` to deploy"
